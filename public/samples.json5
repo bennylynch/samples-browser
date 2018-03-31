@@ -74,6 +74,12 @@
       "desc": "Generate fractals with HTML5 canvas.",
       "img": "mandelbrot.png"
     },
+    "juliaset": {
+      "entry": "juliaset.fsproj",
+      "title": "Interactive Julia set Fractal",
+      "desc": "Generate julia sets with HTML5 canvas.",
+      "img": "juliaset.png"
+    }
   },
   "productivity": {
     "redux-todomvc": {

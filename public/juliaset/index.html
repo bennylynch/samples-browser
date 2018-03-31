@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>Fable · Julia Sets with Fable</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h1>Julia set Fractal</h1>
+
+  <!-- [body] -->
+  <table class="table" style="margin:10px 0px 20px 0px">
+    <tr><td>R</td><td><input type="range" id="r" min="-2" max="2" value="0" step="0.01"></td></tr>
+    <tr><td>I</td><td><input type="range" id="i" min="-2" max="2" value="0" step="0.01"></td></tr>
+    <tr><td><button id="stop">stop</button></td></tr>
+    
+  </table>
+  <canvas align="center" id="canvas" width="512" height="512"></canvas>
+  <!-- [/body] -->
+  <script src="bundle.js"></script>
+</body>
+</html>
