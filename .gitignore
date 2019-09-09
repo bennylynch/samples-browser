@@ -263,6 +263,13 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
+# paket
+.paket/*
+
+# npm log
+*.log
+# ionide
+.ionide/
 
 # JetBrains Rider
 .idea/
@@ -287,3 +294,4 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
